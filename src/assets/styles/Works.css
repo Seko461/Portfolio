@@ -1,0 +1,52 @@
+.btnsWorks {
+    position: absolute;
+    bottom: 4rem;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+}
+
+/*  */
+
+.folderSlide {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    width: 362px;
+    height: 272px;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 60%;
+    height: 60%;
+    transition: transform 500ms ease 0s, opacity 500ms ease 0s,
+        visibility 500ms ease 0s;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+img {
+    object-fit: cover;
+}
+
+.sliderContent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.weatherAppContainer>h1 {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.input {
+    border-radius: 1rem;
+    height: 2.5rem;
+    padding: 0 2rem;
+}
+
+.form>textarea {
+    border-radius: 1rem;
+    height: 5rem;
+    padding: 1rem 1.5rem;
+}

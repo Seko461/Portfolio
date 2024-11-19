@@ -1,0 +1,29 @@
+.qr-input>input {
+    background-color: white;
+    padding: .5rem .25rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+    border: 1px solid;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.btnGenerate {
+    background-color: transparent;
+    padding: .5rem .25rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+
+.qr-code {
+    border: 1px solid;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+/* .qr-code-container {
+    height: 20rem;
+    width: 20rem;
+} */

@@ -1,0 +1,32 @@
+.searchBar {
+    margin: 1rem 0;
+    text-align: center;
+
+}
+
+.searchBar>input {
+    background-color: white;
+    padding: .5rem .25rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+    border: 1px solid;
+    padding-left: 1rem;
+
+}
+
+.searchBar>button {
+    background-color: transparent;
+    padding: .5rem .25rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    border: 1px solid;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+
+}

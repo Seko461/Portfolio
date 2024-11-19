@@ -1,0 +1,44 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameButton>button,
+.restartScore {
+    background-color: transparent;
+    padding: .75rem .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.tic-tac-toe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: fit-content;
+    border-top: 2px solid;
+    border-right: 2px solid;
+}
+
+.square {
+    border: 1px solid black;
+    background-color: transparent;
+    float: left;
+    font-size: 3rem;
+    height: 4rem;
+    width: 4rem;
+    padding: 0px;
+    text-align: center;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+
+}

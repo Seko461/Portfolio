@@ -1,0 +1,48 @@
+.acc-container {
+    /* border: 1px solid; */
+    display: flex;
+}
+
+
+.acc-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.acc-wrapper button {
+    padding: 10px 20px;
+    background: var(--bg-color);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accordian {
+    width: 600px;
+}
+
+.item {
+    background: var(--bg-color);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 1rem;
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acc-content {
+    color: #ffffff;
+    height: auto;
+}
