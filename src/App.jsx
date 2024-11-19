@@ -111,24 +111,24 @@ function App() {
 
             <Routes>
               <Route path="/" element={
-                <Suspense fallback={<ClipLoader />}>
-                  <Home className="page" />
-                </Suspense>
+
+                <Home className="page" />
+
               } />
               <Route path="/about" element={
-                <Suspense fallback={<ClipLoader />}>
-                  <About className="page" />
-                </Suspense>
+
+                <About className="page" />
+
               } />
               <Route path="/works" element={
-                <Suspense fallback={<ClipLoader />}>
-                  <Works className="page" activeSlide={1} />
-                </Suspense>
+
+                <Works className="page" activeSlide={1} />
+
               } />
               <Route path="/contacts" element={
-                <Suspense fallback={<ClipLoader />}>
-                  <Contacts className="page" />
-                </Suspense>
+
+                <Contacts className="page" />
+
               } />
               {/* <Route path="*" element={<Error404 />} /> */}
             </Routes>
